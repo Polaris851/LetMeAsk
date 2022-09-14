@@ -29,8 +29,8 @@ Projeto desenvolvido durante a Next Level Week #6 da [Rocketseat](https://rocket
 
 <p align="center">
   <img 
-       src="https://raw.githubusercontent.com/Polaris851/LetMeAsk/327d2605afc1b248cf15f69a1296909fba79a06a/src/assets/images/logo.svg" 
-       alt="Let Me Ask" width="160px"/>
+       src="" 
+       alt="Demonstração">
 </p>
 
 ## 💡 Tecnologias utilizadas
