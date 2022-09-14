@@ -1,4 +1,3 @@
-
 <p align="center">
   <img 
        src="https://raw.githubusercontent.com/Polaris851/LetMeAsk/327d2605afc1b248cf15f69a1296909fba79a06a/src/assets/images/logo.svg" 
