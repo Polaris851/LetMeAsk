@@ -20,8 +20,10 @@ Projeto desenvolvido durante a Next Level Week #6 da [Rocketseat](https://rocket
 
 ### Melhorias realizadas no projeto:
 - Modal
+- PWA
 - Dark Mode
 - Responsividade
+- Styled Components
 - Prioridade em perguntas com mais curtidas
 
 ## Tecnologias utilizadas
