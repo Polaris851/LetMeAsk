@@ -1,5 +1,7 @@
 import { useNavigate } from 'react-router-dom';
+import { FormEvent, useState } from 'react';
 
+import { database } from '../services/firebase';
 import { useAuth } from '../hooks/useAuth';
 
 import { Button } from '../components/Button';
@@ -7,10 +9,9 @@ import { Button } from '../components/Button';
 import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
 import googleIconImg from '../assets/images/google-icon.svg';
+import logInImg from '../assets/images/log-in.svg';
 
 import '../styles/auth.scss';
-import { FormEvent, useState } from 'react';
-import { database } from '../services/firebase';
 
 export function Home() {
     const navigate = useNavigate();
@@ -70,6 +71,7 @@ export function Home() {
                          value={roomCode}
                         />
                          <Button type="submit">
+                             <img src={logInImg} alt="log in" />
                             Entrar
                          </Button>
                     </form>

@@ -12,10 +12,10 @@
     
     &.highlighted {
         background: #F4F0FF;
-        border: 1px solid #835afd;
+        border: 1px solid var(--primary);
         
         footer .user-info span {
-            color: #292929;
+            color: var(--text);
         }
     }
     
@@ -24,7 +24,7 @@
     }
     
     p {
-        color: #292929;
+        color: var(--text);
     }
 
     footer {
@@ -51,7 +51,7 @@
             span {
                 margin-left: 8px;
                 color: #737380;
-                font-size: 14px;
+                font-size: 1.4rem;
             }
         }
 
@@ -67,6 +67,14 @@
             cursor: pointer;
             transition: 0.2s;
 
+            &.icon:hover {
+                filter: invert(40%) sepia(57%) saturate(4797%) hue-rotate(238deg) brightness(102%) contrast(98%);
+            }
+
+            &.icon-delete:hover {
+                filter: invert(34%) sepia(71%) saturate(1120%) hue-rotate(331deg) brightness(99%) contrast(100%);
+            }
+
             &.like-button {
                 display: flex;
                 align-items: flex-end;
@@ -74,10 +82,10 @@
                 gap: 8px;
 
                 &.liked {
-                    color: #835afd;
+                    color: var(--primary);
 
                     svg path {
-                        stroke: #835afd;
+                        stroke: var(--primary);
                     }
                 }
             }

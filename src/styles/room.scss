@@ -27,6 +27,7 @@
 
     main {
         max-width: 800px;
+        width: 90%;
         margin: 0 auto;
 
         .room-title {
@@ -36,18 +37,18 @@
 
             h1 {
                 font-family: 'Poppins', sans-serif;
-                font-size: 24px;
-                color: #29292e;
+                font-size: 2.4rem;
+                color: var(--text);
             }
 
             span {
                 margin-left: 16px;
-                background: #e559f9;
+                background: var(--secondary);
                 border-radius: 20px;
                 padding: 8px 16px;
                 color: #fff;
                 font-weight: 500;
-                font-size: 14px;
+                font-size: 1.4rem;
             }
         }
 
@@ -81,28 +82,61 @@
 
                     span {
                         margin-left: 8px;
-                        color: #29292e;
+                        color: var(--text);
                         font-weight: 500;
-                        font-size: 14px;
+                        font-size: 1.4rem;
                     }
                 }
 
                 > span {
-                    font-size: 14px;
+                    font-size: 1.4rem;
                     color: #737380;
                     font-weight: 500;
 
                     button {
                         background: transparent;
                         border: 0;
-                        color: #835AFD;
+                        color: var(--primary);
                         text-decoration: underline;
-                        font-size: 14px;
+                        font-size: 1.4rem;
                         font-weight: 500;
                         cursor: pointer;
                     }
                 }
             }
+        }
+
+        .empty-questions {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 400px;
+
+            margin: 32px auto;
+            gap: 16px;
+
+            img {
+                height: 120px;
+            }
+
+            h2 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 2rem;
+                color: var(--text);
+
+                display: flex;
+                text-align: center;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 1.4rem;
+
+                display: flex;
+                text-align: center;
+            }
+
         }
 
         .question-list {

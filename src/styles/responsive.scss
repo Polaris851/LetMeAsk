@@ -1,0 +1,67 @@
+@media (max-width: 800px) {
+    #page-auth aside {
+        display: none;
+    }
+    #page-room {
+        header .content > div {
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    #page-auth {  
+        .main-content h2 {
+            font-size: 2rem;
+            margin: 44px 0 14px;
+        }
+    
+        .create-room {
+            margin-top: 44px
+        }
+    
+        .separator {
+            margin: 22px 0;
+        }
+    }
+    #page-room {
+        main .empty-questions {
+            img {
+                height: 100px;
+            }
+
+            h2 {
+                font-size: 1.6rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .question {
+        footer > div {
+            gap: 5px;
+        }
+    }
+    .button {
+        padding: 0 18px;
+    
+        img {
+            margin-right: 8px;
+        }
+    }
+    .room-code {
+        div {
+            padding: 0 8px;
+        }
+    
+        span {
+            padding: 0 5px 0 5px;
+            width: 160px;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }       
+}
